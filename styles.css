@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background: url('background.jpg') no-repeat center center/cover; /* Replace with actual image path */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent overlay */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #f4c10f; /* Yellow accent color */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.countdown div {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.countdown span {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.countdown p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #f4c10f;
+    border: none;
+    border-radius: 25px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #e0aa09;
+}
